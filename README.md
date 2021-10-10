@@ -1,2 +1,2 @@
 # Foundation
-hi seungchae lee
+Javascript Foundation page.
