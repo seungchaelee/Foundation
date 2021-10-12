@@ -1,4 +1,3 @@
-
 let counter = 0;
 
 function count() {
@@ -11,5 +10,5 @@ function count() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  document.querySelector('button').onclick = count;
+  document.querySelector('button').onclick = count; //.addEventListener('click', count); 같음
 });
