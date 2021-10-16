@@ -12,6 +12,11 @@
   //document.addEventListener('DOMContentLoaded', function () {
     document.addEventListener('DOMContentLoaded', () => {
 
+    //this를 이용한 value 값 넣기
+      document.querySelector('select').onchange = function() {
+        document.querySelector('#hello').style.color = this.value;
+      }
+
     //묶어서 하는 법  ( => 함수 사용 )
     //document.querySelectorAll('button').forEach(function(buttons) {
       document.querySelectorAll('button').forEach(buttons => {
@@ -32,6 +37,13 @@
 
 <body>
   <h1 id="hello">Hello!</h1>
+
+  <select>
+    <option value="black">Black</option>
+    <option value="red">Red</option>
+    <option value="blue">Blue</option>
+    <option value="green">Green</option>
+  </select>
 
   <button data-color="red">Red</button>
   <button data-color="blue">Blue</button>
