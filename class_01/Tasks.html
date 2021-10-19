@@ -9,27 +9,29 @@
   <script>
     document.addEventListener('DOMContentLoaded', function() {
 
-      //By default, submit button is disabled
-      document.querySelector('#submit').disabled = true;
+      const task = document.querySelector('#task');
+      const submit = document.querySelector('#submit');
 
-      document.querySelector('#task').onkeyup = () => {
-        if (document.querySelector('#task').value.length > 0) {
-          document.querySelector('#submit').disabled = false;
+      submit.disabled = true;
+
+      //By default, submit button is disabled
+      task.onkeyup = () => {
+        if (task.value.length > 0) {
+          submit.disabled = false;
         } else {
-          document.querySelector('#submit').disabled = true;
+          submit.disabled = true;
         }
       }
 
       document.querySelector('form').onsubmit = () => {
-        const task = document.querySelector('#task').value;
 
         const li = document.createElement('li');
-        li.innerHTML = task;
+        li.innerHTML = task.value;
 
         document.querySelector('#tasks').append(li);
 
-        document.querySelector('#task').value = '';
-        document.querySelector('#submit').disabled = true;
+        task.value = '';
+        submit.disabled = true;
 
         //Stop form from submitting
         return false;
