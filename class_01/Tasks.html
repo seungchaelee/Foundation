@@ -12,9 +12,9 @@
       const task = document.querySelector('#task');
       const submit = document.querySelector('#submit');
 
+      //By default, submit button is disabled
       submit.disabled = true;
 
-      //By default, submit button is disabled
       task.onkeyup = () => {
         if (task.value.length > 0) {
           submit.disabled = false;
