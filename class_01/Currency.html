@@ -10,9 +10,10 @@
     document.addEventListener('DOMContentLoaded', function() {
 
       fetch('http://api.exchangeratesapi.io/v1/latest?access_key=a2e71f65a0239ce90e45c94f0531391c&format=1')
-      .then(response => {
-        return response.json()
-      })
+      .then(response => response.json())
+      .then(data => {
+        console.log(data);
+      });
 
     });
   </script>
