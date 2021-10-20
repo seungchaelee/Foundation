@@ -1,2 +1,2 @@
 # Foundation
-Javascript Foundation page.
+Javascript Base page.
