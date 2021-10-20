@@ -17,30 +17,50 @@
           const currency = document.querySelector('#currency').value.toUpperCase();
           const rate = data.rates[currency];
           if (rate !== undefined) {
-            document.querySelector('#result').innerHTML = `1 EUR is equal to ${rate.toFixed(3)} ${currency}.`;
+            document.querySelector('#result').innerHTML = `1 EUR = ${rate.toFixed(3)} ${currency}.`;
+            document.querySelector('#currency').value = '';
           } else {
             document.querySelector('#result').innerHTML = 'Invalid Currency.';
+            document.querySelector('#currency').value = '';
           }
 
+        })
+        .catch(error => {
+          console.log('Error:', error);
         });
-
         return false;
       }
-
-
-
     });
   </script>
 </head>
 
+<style>
+  input {
+    display: block;
+    margin: 2em auto 0;
+  }
+  div {
+    text-align: center;
+  }
+  #currency {
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    text-align: center;
+  }
+  #result {
+    font-size: 100px;
+    padding-top: 50px;
+  }
+</style>
 <body>
   <form>
-    <input id="currency" placeholder="Currency" type="text">
+    <input id="currency" placeholder="Ex) USD" type="text">
     <input type="submit" value="Convert">
   </form>
-  <div id="result">
-
-  </div>
+  <div id="result"></div>
 </body>
 
 </html>
