@@ -11,20 +11,20 @@ console.log(b + c);
 var x;
 
 x = 10;
-console.log(x);
+console.log(x); //10
 
 x += 5;
-console.log(x);
+console.log(x); //15
 
 x -= 5;
-console.log(x);
+console.log(x); //10
 
 x *= 5;
-console.log(x);
+console.log(x); //50
 
 x /= 5;
-console.log(x);
+console.log(x); //10
 
 x %= 5;
-console.log(x);
+console.log(x); //0
 
