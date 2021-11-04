@@ -8,4 +8,4 @@ do {
   i++;                          // 중감식
 } while (i <= 5);               // 조선식
 
-console.log('합계: ' + sum);
+console.log('합계: ' + sum);     // 15

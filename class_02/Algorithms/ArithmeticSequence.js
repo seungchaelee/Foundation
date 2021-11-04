@@ -1,0 +1,1 @@
+// 등차수열(Arithmetic Sequence)
