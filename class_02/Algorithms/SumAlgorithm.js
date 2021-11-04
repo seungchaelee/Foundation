@@ -13,7 +13,7 @@ let N = scores.length; // 의사코드
 for (let i = 0; i < N; i++) { // 주어진 범위
   if (scores[i] >= 80) {  // 주어진 조건
     // sum = sum + scores[i];
-    sum += scores[i]; // Sum = scores[0] + scores[5] + scores[6]
+    sum += scores[i]; // Sum = sum + scores[0] + scores[5] + scores[6]
   }
 }
 
