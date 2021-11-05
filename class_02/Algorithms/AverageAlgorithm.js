@@ -11,7 +11,7 @@ function Average() {
   let count = 0;  // 개수 담는 그릇
   let avg = 0.0;
 
-  //[2] Process(처리)
+  //[2] Process(처리): AVG = SUM / COUNT
 
   for (let i = 0; i <= data.length; i++) {
     if (data[i] >= 80 && data[i] <=95) {
