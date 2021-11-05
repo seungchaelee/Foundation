@@ -26,7 +26,7 @@ function Average() {
 
   //[3] Output(출력)
 
-  console.log('80점 이상 95점 이하인 자료의 평균: ' + avg);
+  console.log('80점 이상 95점 이하인 자료의 평균: ' + avg.toFixed(2));
 
 }
 
