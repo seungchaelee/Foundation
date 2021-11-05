@@ -10,7 +10,7 @@ let sequence = '';
 //[2] Process(처리): 개수 알고리즘 영역: 주어진 범위에 주어진 조건(필터링)
 
 for (let i = 1; i <= 1000; i++) {
-  if (i % 13 == 0) {
+  if (i % 13 == 0) {  // 13의 배수 찾기
     // count = count + 1;
     // count += 1;
     count++;
