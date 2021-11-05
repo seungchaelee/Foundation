@@ -22,14 +22,6 @@ for (let i = 0; i < N; i++) { // 주어진 범위
 console.log(N + '명의 점수 중 80점 이상의 총점: ' + sum);
 
 
-// const a = 1;
-// const b = 2;
-// const c = 3;
-
-// console.log(a + b);
-// console.log(a + c);
-// console.log(b + c);
-
 // var x;
 
 // x = 10;
@@ -49,3 +41,10 @@ console.log(N + '명의 점수 중 80점 이상의 총점: ' + sum);
 
 // x %= 5;
 // console.log(x); //0
+
+// sum++;
+// sum = sum + 1;
+// sum += 1;
+
+// sum += i;
+// sum = sum + i;

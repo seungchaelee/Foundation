@@ -5,19 +5,18 @@
 //[1] Input(입력)
 
 let sum = 0; //Sum
+let sequence = '';
 
 //[2] Process(처리)
 
-let sequence = '';
-
 for (let i = 0; i <= 20; i++) { //주어진 범위
   if (i % 2 ==1) { //주어진 조건: 필터링(홀수)    (!(i % 2 != 1) 부정의 부정 = 긍정
-    sum += i; //Sum = sum + 1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 +19
     sequence += i + ' '; // 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
+    sum += i; //Sum = sum + 1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 +19
   }
 }
-console.log(sequence); //SEQUENCE -> Arithmetic Sequence
 
 //[3] Output(출력)
 
+console.log(sequence); //SEQUENCE -> Arithmetic Sequence
 console.log('1부터 20까지의 홀수의 합:' + sum); //100
