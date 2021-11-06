@@ -4,7 +4,7 @@
 
 function Max() {
 
-  //[0] Initialize(초기화)
+  //[0] Initialize(초기화): 숫자 형식의 데이터 중 가장 작은 값으로 초가화
 
 
 
@@ -12,7 +12,7 @@ function Max() {
 
 
 
-  //[2] Process(처리)
+  //[2] Process(처리): MAX
 
 
 
