@@ -16,7 +16,7 @@ function Max() {
 
   for (let i = 0; i < number.length; i++) {
     if (number[i] > max) {  // 더 큰 데이터가 있다면
-      max = number[i];  
+      max = number[i];  // 더 큰 값으로 할당
     }
   }
 
