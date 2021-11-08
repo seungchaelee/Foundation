@@ -14,7 +14,11 @@ function Max() {
 
   //[2] Process(처리): MAX
 
-
+  for (let i = 0; i < number.length; i++) {
+    if (number[i] > max) {
+      max = number[i];
+    }
+  }
 
   //[3] Output(출력)
 
