@@ -15,7 +15,7 @@ function Min() {
   //[2] Process(처리): Min
 
   for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] < min && numbers[i] % 2 ==0) { // 찍수 최솟값
+    if (numbers[i] < min && numbers[i] % 2 == 0) { // 찍수 최솟값
       min = numbers[i]; // Min: 더 작은 값으로 할당
     }
   }

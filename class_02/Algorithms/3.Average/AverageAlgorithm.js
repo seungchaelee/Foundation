@@ -14,7 +14,7 @@ function Average() {
   //[2] Process(처리): AVG = SUM / COUNT
 
   for (let i = 0; i < data.length; i++) {
-    if (data[i] >= 80 && data[i] <=95) {
+    if (data[i] >= 80 && data[i] <= 95) {
       sum += data[i]; // SUM
       count++;  // COUNT
     }
