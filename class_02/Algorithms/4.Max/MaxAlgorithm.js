@@ -6,11 +6,11 @@ function Max() {
 
   //[0] Initialize(초기화): 숫자 형식의 데이터 중 가장 작은 값으로 초가화
 
-
+  let max = Number.MIN_SAFE_INTEGER;
 
   //[1] Input(입력)
 
-
+  let number = [-2, -5, -3, -7, -1];
 
   //[2] Process(처리): MAX
 
@@ -18,7 +18,7 @@ function Max() {
 
   //[3] Output(출력)
 
-
+  console.log('최대값' + max);
 
 }
 
