@@ -1,4 +1,4 @@
-# !!알고리즘!!
+# !! 필수 알고리즘 !!
 
 1. 합계 알고리즘 : Sum Algorithm(기본), Do While문, 등차수열(Arithmetic Sequence)
 2. 개수 알고리즘 : Count Algorithm
