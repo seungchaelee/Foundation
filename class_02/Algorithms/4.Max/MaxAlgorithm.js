@@ -10,13 +10,13 @@ function Max() {
 
   //[1] Input(입력)
 
-  let number = [-2, -5, -3, -7, -1];  // MAX: -1
+  let numbers = [-2, -5, -3, -7, -1];  // MAX: -1
 
   //[2] Process(처리): MAX
 
-  for (let i = 0; i < number.length; i++) {
-    if (number[i] > max) {  // 더 큰 데이터가 있다면
-      max = number[i];  // 더 큰 값으로 할당
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] > max) {  // 더 큰 데이터가 있다면
+      max = numbers[i];  // 더 큰 값으로 할당
     }
   }
 
