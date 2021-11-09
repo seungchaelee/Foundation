@@ -4,19 +4,19 @@
 
 function Near() {
 
-  //[0]
+  //[0] Initialize(초기화)
 
 
 
-  //[1]
+  //[1] Input(입력)
 
 
 
-  //[2]
+  //[2] Process(처리)
 
 
 
-  //[3]
+  //[3] Output(출력)
 
   console.log();
 
