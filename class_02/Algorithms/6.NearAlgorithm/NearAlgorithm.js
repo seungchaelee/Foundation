@@ -10,7 +10,7 @@ function Near() {
 
   //[1] Input(입력)
 
-  let numbers = [10, 20, 30, 40, 50];
+  let numbers = [10, 30, 20, 40, 50, 27];
   let target = 25;
   let near = 0;
 
