@@ -6,7 +6,7 @@ function Near() {
 
   //[0] Initialize(초기화)
 
-
+  let min = 9999;
 
   //[1] Input(입력)
 
@@ -20,7 +20,7 @@ function Near() {
 
   //[3] Output(출력)
 
-  console.log();
+  console.log(target + '와/과 가장 가까운 값:' + near + '(차이: ' + min + ')');
 
 }
 
