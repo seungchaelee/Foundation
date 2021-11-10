@@ -10,7 +10,9 @@ function Near() {
 
   //[1] Input(입력)
 
-
+  let numbers = [10, 20, 30, 40, 50];
+  let target = 25;
+  let near = 0;
 
   //[2] Process(처리): Near
 
