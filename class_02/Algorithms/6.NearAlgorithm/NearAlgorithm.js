@@ -12,7 +12,7 @@ function Near() {
 
 
 
-  //[2] Process(처리)
+  //[2] Process(처리): Near
 
 
 
