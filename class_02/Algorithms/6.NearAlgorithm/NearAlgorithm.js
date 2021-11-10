@@ -16,7 +16,16 @@ function Near() {
 
   //[2] Process(처리): Near
 
+  for (let i = 0; i < numbers.length; i++) {
 
+    let abs = Math.abs(numbers[i] - target);  // 차잇값의 절대값
+
+    if (abs < min) {
+      min = abs;  // Min: 최솟값 알고리즘
+      near = numbers[i];  // Near: 차잇값의 절대값의 최솟값일 때의 값
+    }
+
+  }
 
   //[3] Output(출력)
 
