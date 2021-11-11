@@ -16,7 +16,7 @@ function Rank() {
   //[3] Output(출력)
 
   for (let i = 0; i < scores.length; i++) {
-    console.log(scores[i] + '점: ' + rankings[i] + '등');
+    console.log(scores[i] + ' 점: ' + rankings[i] + ' 등 ');
   }
 
 }
