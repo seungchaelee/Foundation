@@ -11,6 +11,9 @@ function Rank() {
 
   //[2] Process(처리)
 
+  for (let i = 0; i < scores.length; i++) {
+    
+  }
 
 
   //[3] Output(출력)
