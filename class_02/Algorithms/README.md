@@ -8,7 +8,7 @@
 06. 근삿값 알고리즘 : Near Algorithm
 07. 순 위 알고리즘 : Rank Algorithm
 08. 정 렬 알고리즘 : Sort Algorithm
-09.
-10.
-11.
-12.
+09. 검 색 알고리즘 : Search Algorithm
+10. 병 합 알고리즘 : Merge Algorithm
+11. 최빈값 알고리즘 : Mode Algorithm
+12. 그 룹 알고리즘 : Group Algorithm
