@@ -7,9 +7,10 @@ function Rank() {
   //[1] Input(입력)
 
   let scores = [90, 97, 100, 95, 77]; // 등수: 4, 2, 1, 3, 5
-  let rankings = Array(5).fill(1);  // 모두 1로 초기화
+  let N = scores.length;
+  let rankings = Array(N).fill(1);  // 모두 1로 초기화
 
-  //[2] Process(처리)
+  //[2] Process(처리): Rank
 
   for (let i = 0; i < scores.length; i++) {
     
@@ -19,7 +20,7 @@ function Rank() {
   //[3] Output(출력)
 
   for (let i = 0; i < scores.length; i++) {
-    console.log(scores[i] + ' 점: ' + rankings[i] + ' 등 ');
+    console.log(scores[i].toString().padStart(3) + ' 점: ' + rankings[i] + ' 등 ');
   }
 
 }
