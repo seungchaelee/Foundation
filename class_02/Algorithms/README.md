@@ -7,7 +7,7 @@
 05. 최솟값 알고리즘 : Min Algorithm
 06. 근삿값 알고리즘 : Near Algorithm
 07. 순 위 알고리즘 : Rank Algorithm
-08. d\
+08. 정 렬 알고리즘 : Sort Algorithm
 09.
 10.
 11.
