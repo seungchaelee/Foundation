@@ -18,7 +18,7 @@ function Sort() {
 
   //[3]
 
-
+  console.log();
 
 }
 
