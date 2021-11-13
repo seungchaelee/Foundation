@@ -6,7 +6,7 @@ function Sort() {
 
   //[1] Input(입력): Data Structure(Array, List, Stack, Queue, Tree, DB, ...)
 
-
+  let data = [3, 2, 1, 5, 4]; // 정렬되지 않은 데이터
 
   //[2] Process(처리): Selection Sort(선택 정렬)
 
