@@ -1,5 +1,13 @@
 # !! 필수 알고리즘 !!
 
+알고리즘 순서도
+
+[1] Input(입력): Data Structure(Array, List, Stack, Queue, Tree, DB, ...)
+
+[2] Process(처리): Algorithm
+
+[3] Output(출력): UI(Console, Desktop, Web, Mobile, ...)
+
 01. 합계 알고리즘 : Sum Algorithm(기본), Do While문, 등차수열(Arithmetic Sequence)
 02. 개수 알고리즘 : Count Algorithm
 03. 평균 알고리즘 : Average Algorithm
@@ -12,3 +20,5 @@
 10. 병 합 알고리즘 : Merge Algorithm
 11. 최빈값 알고리즘 : Mode Algorithm
 12. 그 룹 알고리즘 : Group Algorithm
+
+

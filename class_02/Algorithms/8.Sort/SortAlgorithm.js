@@ -4,7 +4,7 @@
 
 function Sort() {
 
-  //[1] Input(입력)
+  //[1] Input(입력): Data Structure(Array, List, Stack, Queue, Tree, DB, ...)
 
 
 
@@ -12,7 +12,7 @@ function Sort() {
 
 
 
-  //[3] Output(출력)
+  //[3] Output(출력): UI(Console, Desktop, Web, Mobile, ...)
 
   console.log();
 
