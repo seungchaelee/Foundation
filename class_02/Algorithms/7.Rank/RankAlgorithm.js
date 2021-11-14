@@ -7,7 +7,7 @@ function Rank() {
   //[1] Input(입력)
 
   let scores = [90, 97, 100, 95, 77]; // 등수: 4, 2, 1, 3, 5
-  let N = scores.length;
+  let N = scores.length;  // 의사코드(슈도코드)
   let rankings = Array(N).fill(1);  // 모두 1로 초기화
 
   //[2] Process(처리): Rank
