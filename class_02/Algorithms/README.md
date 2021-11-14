@@ -2,11 +2,11 @@
 
 알고리즘 순서도
 
-[1] Input(입력): Data Structure(Array, List, Stack, Queue, Tree, DB, ...)
+[1] Input(입력) : Data Structure(Array, List, Stack, Queue, Tree, DB, ...)
 
-[2] Process(처리): Algorithm
+[2] Process(처리) : Algorithm
 
-[3] Output(출력): UI(Console, Desktop, Web, Mobile, ...)
+[3] Output(출력) : UI(Console, Desktop, Web, Mobile, ...)
 
 01. 합계 알고리즘 : Sum Algorithm(기본), Do While문, 등차수열(Arithmetic Sequence)
 02. 개수 알고리즘 : Count Algorithm
