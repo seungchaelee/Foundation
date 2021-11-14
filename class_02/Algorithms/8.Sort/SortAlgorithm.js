@@ -14,7 +14,9 @@ function Sort() {
 
   //[3] Output(출력): UI(Console, Desktop, Web, Mobile, ...)
 
-  console.log();
+  for (let i = 0; i < data.length; i++) {
+    console.log(data[i]);
+  }
 
 }
 
