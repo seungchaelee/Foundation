@@ -10,7 +10,9 @@ function Sort() {
 
   //[2] Process(처리): Selection Sort(선택 정렬)
 
-
+  for (let i = 0; i < data.length; i++) {
+    
+  }
 
   //[3] Output(출력): UI(Console, Desktop, Web, Mobile, ...)
 
