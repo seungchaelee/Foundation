@@ -2,6 +2,8 @@
 
 알고리즘 순서도
 
+[0] Initialize(초기화): 숫자 형식의 데이터 중 원하는 값으로 초가화
+
 [1] Input(입력) : Data Structure(Array, List, Stack, Queue, Tree, DB, ...)
 
 [2] Process(처리) : Algorithm
