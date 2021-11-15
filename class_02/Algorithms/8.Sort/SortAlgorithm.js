@@ -11,8 +11,14 @@ function Sort() {
 
   //[2] Process(처리): Selection Sort(선택 정렬)
 
-  for (let i = 0; i < data.length; i++) {
-    
+  for (let i = 0; i < N - 1; i++) { // i = 0 to N - 1
+    for (let j = i + 1; j < N; j++) { // j = i + 1 to N
+      if (data[i] > data[j]) {  // 부등호 방향: 오름차순(>), 내림차순(<)
+        let temp = data[i];
+        data[i] = data[j];
+        data[j] = temp; // Swap
+      }
+    }
   }
 
   //[3] Output(출력): UI(Console, Desktop, Web, Mobile, ...)
