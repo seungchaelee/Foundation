@@ -19,15 +19,16 @@ function Sort() {
         data[j] = temp; // Swap
       }
     }
-
-    console.log((i + 1) + '회전: ');
-    for (let i = 0; i < N; i++) {
-      console.log(data[i]);
-    }
-
   }
 
   //[3] Output(출력): UI(Console, Desktop, Web, Mobile, ...)
+
+  for (let i = 0; i < N - 1; i++) {
+    console.log((i + 1) + '회전: ')
+    for (let i = 0; i < N; i++) {
+      console.log(data[i]);
+    }
+  }
 
   // for (let i = 0; i < N; i++) {
   //   console.log(data[i]);
