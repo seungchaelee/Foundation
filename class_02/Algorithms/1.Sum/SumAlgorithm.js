@@ -46,5 +46,5 @@ console.log(N + '명의 점수 중 80점 이상의 총점: ' + sum);
 // sum = sum + 1;
 // sum += 1;
 
-// sum += i;
-// sum = sum + i;
+// sum += scores[i];
+// sum = sum + scores[i];
