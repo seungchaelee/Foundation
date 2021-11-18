@@ -25,12 +25,9 @@ function Search() {
       flag = true;
       index = mid;
       break;  // 찾으면 플래그, 안텍스 저중 후 종료
-    }
-
-    if (data[mid] > search) {
+    } else if (data[mid] > search) {
       high = mid - 1; // 찾을 데이터가 mid보다 작으면 왼쪽 영역으로 이동
-    }
-    else {
+    } else {
       low = mid + 1;  // 찾을 데이터가 mid보다 크면 오른쪽 영역으로 이동
     }
 
@@ -39,7 +36,7 @@ function Search() {
   //[3] Output(출력)
 
   if (flag === true) {
-    console.log(search + '을(를) ' + index + '위치에서 찾았습니다.');
+    console.log(search + '을(를) Index ' + index + '위치에서 찾았습니다.');
   } else {
     console.log('찾지 못했습니다.');
   }
