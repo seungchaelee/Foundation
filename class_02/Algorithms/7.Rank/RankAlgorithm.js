@@ -17,11 +17,9 @@ function Rank() {
     rankings[i] = 1;  // 1등으로 초기화, 순위 배열을 매 회전마다 1등으로 초기화
 
     for ( let j = 0; j < N; j++) {
-
       if (scores[i] < scores[j]) {  // 현재(i)와 나머지들(j) 비교
         rankings[i]++;  // Rank 알고라줌: 나보다 큰 점수가 나오면 순위 1증가
       }
-
     }
 
   }
