@@ -24,7 +24,6 @@ function Rank() {
 
   }
 
-
   //[3] Output(출력)
 
   for (let i = 0; i < N; i++) {
