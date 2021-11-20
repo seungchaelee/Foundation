@@ -22,6 +22,7 @@ for (let i = 0; i < N; i++) { // 주어진 범위
 console.log(N + '명의 점수 중 80점 이상의 총점: ' + sum);
 
 
+
 // var x;
 
 // x = 10;
