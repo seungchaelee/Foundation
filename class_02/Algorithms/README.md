@@ -10,6 +10,8 @@
 
 [3] Output(출력) : UI(Console, Desktop, Web, Mobile, ...)
 
+Type(종류)
+
 01. 합계 알고리즘 : Sum Algorithm(기본), Do While문, 등차수열(Arithmetic Sequence)
 02. 개수 알고리즘 : Count Algorithm
 03. 평균 알고리즘 : Average Algorithm
