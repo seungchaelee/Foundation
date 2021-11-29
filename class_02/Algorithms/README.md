@@ -24,3 +24,4 @@ Type(종류)
 10. 병 합 알고리즘 : Merge Algorithm
 11. 최빈값 알고리즘 : Mode Algorithm
 12. 그 룹 알고리즘 : Group Algorithm
+
