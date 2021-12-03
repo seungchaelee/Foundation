@@ -1,3 +1,4 @@
 # 3th
 
-free code
+1. free code
+2. 구구단
