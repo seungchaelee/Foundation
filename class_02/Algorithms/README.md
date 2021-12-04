@@ -25,4 +25,4 @@ Type(종류)
 11. 최빈값 알고리즘 : Mode Algorithm
 12. 그 룹 알고리즘 : Group Algorithm
 
-Thanks
+Thanks...
