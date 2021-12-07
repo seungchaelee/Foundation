@@ -80,5 +80,13 @@ let nothing = null;
 console.log(`value: ${nothing}, type: ${typeof nothing}`);
 
 // undefined
-let x = undefined;
-console.log(`value: ${undefined}, type: ${typeof undefined}`);
+let x;
+console.log(`value: ${x}, type: ${typeof x}`);
+
+// symbol, create unique identifiers for objects
+const symbol1 = Symbol('id');
+const symbol2 = Symbol('id');
+console.log(symbol1 === symbol2); // false
+const Asymbol1 = Symbol.for('id');
+const Asymbol2 = Symbol.for('id');
+console.log(Asymbol1 === Asymbol2); // true
