@@ -6,7 +6,13 @@
 // 2. Variable
 // let (added in ES6)
 
-let name = 'seungchae';
+let globalName = 'Global Name';
+{
+  let name = 'seungchae';
+  console.log(name);
+  name = 'hello';
+  console.log(name);
+  console.log(globalName);
+}
 console.log(name);
-name = 'hello';
-console.log(name);
+console.log(globalName);
