@@ -90,3 +90,4 @@ console.log(symbol1 === symbol2); // false
 const Asymbol1 = Symbol.for('id');
 const Asymbol2 = Symbol.for('id');
 console.log(Asymbol1 === Asymbol2); // true
+console.log(`value: ${symbol1.description}, type: ${typeof symbol1}`);
