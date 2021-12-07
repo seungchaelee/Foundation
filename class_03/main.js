@@ -91,3 +91,22 @@ const Asymbol1 = Symbol.for('id');
 const Asymbol2 = Symbol.for('id');
 console.log(Asymbol1 === Asymbol2); // true
 console.log(`value: ${symbol1.description}, type: ${typeof symbol1}`);
+
+// object, real-life object, data structure
+const seungchae = { name: 'seungchae', age: 20 };
+console.log(seungchae);
+seungchae.age = 25;
+console.log(seungchae);
+
+// 5. Dynamic typing: dynamically typed language
+
+let text = 'hello';
+console.log(text.charAt(0)); // h
+console.log(`value: ${text}, type: ${typeof text}`);
+text = 1;
+console.log(`value: ${text}, type: ${typeof text}`);
+text = '7' + 5;
+console.log(`value: ${text}, type: ${typeof text}`);
+text = '8' / '2';
+console.log(`value: ${text}, type: ${typeof text}`);
+console.log(text.charAt(0));
