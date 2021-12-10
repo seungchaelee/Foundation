@@ -54,4 +54,13 @@ console.log(10 >= 6); // greater than or equal
 const value1 = false;
 const value2 = 4 < 2;
 
-// || (or)
+// || (or), find the first truthy value
+console.log(`or: ${value1 || value2 || check()}`);
+
+function check () {
+  for(let i = 0; i < 10; i++) {
+    // wasting time
+    console.log('😅')
+  }
+  return true;
+}
