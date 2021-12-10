@@ -18,7 +18,7 @@ console.log(5 % 2); // remainder
 console.log(2 ** 10); // exponentiation
 
 // 3. Increment and decrement operators
-let counter = 2;
+let counter = 1;
 const preIncrement = ++counter;
 // counter = counter + 1;
 // preIncrement = counter;
