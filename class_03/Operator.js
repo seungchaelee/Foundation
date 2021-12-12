@@ -52,7 +52,7 @@ console.log(10 >= 6); // greater than or equal
 
 // 6. Logical operators: || (or), && (and), ! (not)
 const value1 = false;
-const value2 = 4 < 2;
+const value2 = 4 < 2; // false
 
 // || (or), ! find the first truthy value !
 console.log(`or: ${value1 || value2 || check()}`);
