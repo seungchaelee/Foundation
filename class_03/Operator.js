@@ -57,6 +57,16 @@ const value2 = 4 < 2; // false
 // || (or), # find the first truthy value
 console.log(`or: ${value1 || value2 || check()}`);
 
+// && (and), # find the first falsy value
+console.log(`and: ${value1 && value2 && check()}`);
+
+// often used to compress long if-statement
+// nullableObject && nullableObject.something
+
+// if (nullableObject != null) {
+//   nullableObject.something;
+// }
+
 function check () {
   for (let i = 0; i < 10; i++) {
     // wasting time
@@ -64,3 +74,18 @@ function check () {
   }
   return true;
 }
+
+// ! (not)
+console.log(`not: ${!value1}`);
+
+// 7. Equality
+const stringFive = '5';
+const numberFive = 5;
+
+// == loose equqlity, with type conversion
+console.log(stringFive == numberFive);
+console.log(stringFive != numberFive);
+
+// === strict equality, no type conversion
+console.log(stringFive === numberFive);
+console.log(stringFive !== numberFive);
