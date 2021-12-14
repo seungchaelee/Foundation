@@ -165,3 +165,28 @@ for (let i = 3; i > 0; i = i - 2) {
   // inline variable declaration
   console.log(`inline variable for: ${i}`);
 }
+
+// nested loops
+for (let i = 0; i < 3; i++) {
+  for (let j = 0; j < 3; j++) {
+    console.log(`i: ${i}, j: ${j}`);
+  }
+}
+
+// Q1. iterate from 0 to 10 and print only even numbers
+// (use continue)
+for (let i = 0; i < 11; i++) {
+  if (i % 2 !== 0) {
+    continue;
+  }
+  console.log(`Q1: ${i}`);
+}
+
+// Q2. iterate from 0 to 10 and print numbers until
+// reaching 8 (use break)
+for (let i = 0; i <= 10; i++) {
+  if (i > 8) {
+    break;
+  }
+  console.log(`Q2: ${i}`);
+}
