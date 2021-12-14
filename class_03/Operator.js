@@ -89,3 +89,31 @@ console.log(stringFive != numberFive);
 // === strict equality, no type conversion
 console.log(stringFive === numberFive);
 console.log(stringFive !== numberFive);
+
+// object equality by reference
+const leesch1 = { name: 'leesch' };
+const leesch2 = { name: 'leesch' };
+const leesch3 = leesch1;
+console.log(leesch1 == leesch2);
+console.log(leesch1 === leesch2);
+console.log(leesch1 === leesch3);
+
+// equality - puzzler
+
+console.log(0 == false); // true
+console.log(0 === false); // false
+console.log('' == false); // true
+console.log('' === false); // false
+console.log(null == undefined); // true
+console.log(null === undefined); // false
+
+// 8. Conditional operators: if
+// if, else if, else
+const name = 'leesch';
+if (name === 'leesch') {
+  console.log('Welcome, leesch!');
+} else if (name === 'coder') {
+  console.log('You are amazing coder');
+} else {
+  console.log('unkwnon');
+}
