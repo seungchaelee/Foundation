@@ -9,7 +9,23 @@
 // naming: doSomething, command, verb(동사)
 // e.g. createCardAndPoint -> createCard, createPoint
 // function is object in JS
-function printHello () {
-  console.log('Hello')
+function printHello() {
+  console.log('Hello');
 }
 printHello();
+
+function log(message) {
+  console.log(message);
+}
+log('Hello2');
+log(1234);
+
+// 2. Parameters
+// premitive parameters: passed by value
+// object parameters: passed by reference
+function changeName(obj) {
+  obj.name = 'coder';
+}
+const leesch = { name: 'leesch' };
+changeName(leesch);
+console.log(leesch);
