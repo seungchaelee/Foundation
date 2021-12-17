@@ -29,3 +29,17 @@ function changeName(obj) {
 const leesch = { name: 'leesch' };
 changeName(leesch);
 console.log(leesch);
+
+// 3. Default parameters (added in ES6)
+function showMessage(message, from = 'unknown') {
+  console.log(`${message} by ${from}`);
+}
+showMessage('Hi!', 'leesch');
+
+// 4. Rest parameters (added in ES6)
+function printAll(...args) {
+  for (let i = 0; i < args.length; i++) {
+    console.log(args[i]);
+  }
+}
+printAll('king', 'wang', 'leesh');
