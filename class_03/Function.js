@@ -42,4 +42,4 @@ function printAll(...args) {
     console.log(args[i]);
   }
 }
-printAll('king', 'wang', 'leesh');
+printAll('king', 'wang', 'jjang', 'leesh');
