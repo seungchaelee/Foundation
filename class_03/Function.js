@@ -41,6 +41,10 @@ function printAll(...args) {
   for (let i = 0; i < args.length; i++) {
     console.log(args[i]);
   }
+
+  for (const arg of args) {
+    console.log(arg);
+  }
 }
 printAll('king', 'wang', 'jjang', 'leesch');
 
