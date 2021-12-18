@@ -43,3 +43,5 @@ function printAll(...args) {
   }
 }
 printAll('king', 'wang', 'jjang', 'leesch');
+
+// 
