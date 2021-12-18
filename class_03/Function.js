@@ -50,4 +50,11 @@ function printAll(...args) {
 }
 printAll('king', 'wang', 'jjang', 'leesch');
 
-// 
+// 5. Local scope
+let globalMessage = 'global'; // global variable
+function printMessage() {
+  let message = 'local';
+  console.log(message); // loacl variable
+  console.log(globalMessage);
+}
+printMessage();
