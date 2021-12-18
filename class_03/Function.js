@@ -56,5 +56,10 @@ function printMessage() {
   let message = 'local';
   console.log(message); // loacl variable
   console.log(globalMessage);
+  function printAnother() {
+    console.log(message);
+    let childMessage = 'hello';
+  }
+  console.log(childMessage);
 }
 printMessage();
