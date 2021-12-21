@@ -140,6 +140,7 @@ const simpleMultiply = (a, b) => {
   // do something more
   return a * b;
 };
+console.log(simpleMultiply(7, 3));
 
 // IIFE: Immediately Invoked Function Expression
 (function helloIIFE() {
