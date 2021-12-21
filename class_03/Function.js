@@ -103,3 +103,5 @@ const print = function () {
 print();
 const printAgain = print;
 printAgain();
+const sumAgain = sum;
+console.log(sumAgain(1, 3));
