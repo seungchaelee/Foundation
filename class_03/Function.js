@@ -106,7 +106,7 @@ printAgain();
 const sumAgain = sum;
 console.log(sumAgain(5, 3));
 
-// Callback function using function expression
+// 2. Callback function using function expression
 function randomQuiz(answer, printYes, printNo) {
   if (answer === 'love u') {
     printYes();
@@ -127,3 +127,12 @@ const printNo = function print() {
 };
 randomQuiz('wrong', printYes, printNo);
 randomQuiz('love u',printYes, printNo);
+
+// Arrow function
+// always anonymous
+const simlpePrint = function () {
+  console.log('simplePrint!');
+};
+
+const simlpePrint = () => console.log('simplePrint!');
+
