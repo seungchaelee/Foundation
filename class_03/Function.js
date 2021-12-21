@@ -105,3 +105,12 @@ const printAgain = print;
 printAgain();
 const sumAgain = sum;
 console.log(sumAgain(5, 3));
+
+// Callback function using function expression
+function randomQuiz(answer, printYes, printNo) {
+  if (answer === 'love u') {
+    printYes();
+  } else {
+    printNo();
+  }
+}
