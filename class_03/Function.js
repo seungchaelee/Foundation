@@ -104,4 +104,4 @@ print();
 const printAgain = print;
 printAgain();
 const sumAgain = sum;
-console.log(sumAgain(1, 3));
+console.log(sumAgain(4, 3));
