@@ -130,9 +130,18 @@ randomQuiz('love u',printYes, printNo);
 
 // Arrow function
 // always anonymous
-const simlpePrint = function () {
-  console.log('simplePrint!');
-};
+// const simlpePrint = function () {
+//   console.log('simplePrint!');
+// };
 
 const simlpePrint = () => console.log('simplePrint!');
+const add = (a, b) => a + b;
+const simpleMultiply = (a, b) => {
+  // do something more
+  return a * b;
+};
 
+// IIFE: Immediately Invoked Function Expression
+(function helloIIFE() {
+  console.log('IIFE');
+})();
