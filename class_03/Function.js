@@ -64,4 +64,10 @@ function printMessage() {
 }
 printMessage();
 
-// 6.
+// 6. Return a value
+function sum(a, b) {
+  return a + b;
+}
+const result = sum(1, 2); //3
+console.log(`sum: ${sum(3, 4)}`); //7
+
