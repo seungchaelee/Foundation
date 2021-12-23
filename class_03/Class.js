@@ -17,7 +17,7 @@ class Person {
 
   // methods
   speak() {
-    console.log(`${this.name}: hello!`);
+    console.log(`${this.name}: Aloha!`);
   }
 }
 
