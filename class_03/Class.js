@@ -14,4 +14,11 @@ class Person {
     this.name = name;
     this.gae = age;
   }
+
+  // methods
+  speak() {
+    console.log(`${this.name}: hello!`);
+  }
 }
+
+
