@@ -12,7 +12,7 @@ class Person {
   constructor(name, age) {
     // fields
     this.name = name;
-    this.gae = age;
+    this.age = age;
   }
 
   // methods
