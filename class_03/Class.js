@@ -5,3 +5,13 @@
 // JavaScript classes
 // - introduced in ES6
 // - syntactical sugar over prototype-based inheritance
+
+// 1. Class declarations
+class Person {
+  // constructor
+  constructor(name, age) {
+    // fields
+    this.name = name;
+    this.gae = age;
+  }
+}
