@@ -21,4 +21,6 @@ class Person {
   }
 }
 
+const leesch = new Person('leesch', 25);
+console.log(leesch.name);
 
