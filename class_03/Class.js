@@ -25,3 +25,12 @@ const leesch = new Person('leesch', 25);
 console.log(leesch.name);
 console.log(leesch.age);
 leesch.speak();
+
+// 2. Getter and setters
+class User {
+  constructor(firstName, lastName, age) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+  }
+}
