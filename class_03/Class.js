@@ -59,3 +59,18 @@ class Experiment {
 const experiment = new Experiment();
 console.log(experiment.publicField);
 console.log(experiment.privateField);
+
+// 4. Static properties and methods
+// Too soon!
+class Article {
+  static publisher = 'lee seung chae';
+  constructor(articleNumber) {
+    this.articleNumber = articleNumber;
+  }
+
+  static printPublisher() {
+    console.log(Article.publisher);
+  }
+}
+
+
