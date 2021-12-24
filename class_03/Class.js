@@ -33,4 +33,18 @@ class User {
     this.lastName = lastName;
     this.age = age;
   }
+
+  get age() {
+    return this._age;
+  }
+  
+  set age(value) {
+    if (value < 0) {
+      throw Error('age can not be negative');
+    }
+    this._age = value;
+  }
 }
+
+const user1 = new User('ken', 'job', -1);
+console.log(user1.age)
