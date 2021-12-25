@@ -51,7 +51,7 @@ console.log(user1.age)
 
 // 3. Fields (public, private)
 // Too soon!
-// https://developer.mozilla.org/en-US/docs/Web/Javascript/Refe
+// https://developer.mozilla.org/en-US/docs/Web/Javascript
 class Experiment {
   publicField = 2;
   #privateField = 0;
