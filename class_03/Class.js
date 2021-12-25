@@ -37,7 +37,7 @@ class User {
   get age() {
     return this._age;
   }
-  
+
   set age(value) {
     // if (value < 0) {
     //   throw Error('age can not be negative');
