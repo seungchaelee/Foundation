@@ -72,5 +72,3 @@ class Article {
     console.log(Article.publisher);
   }
 }
-
-
