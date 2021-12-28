@@ -97,10 +97,15 @@ class Shape {
 }
 
 class Rectangle extends Shape {}
-class Triangle extends Shape {}
+class Triangle extends Shape {
+  getArea() {
+    return (this.width * this.height) / 2;
+  }
+}
 
 const rectangle = new Rectangle(20, 20, 'blue');
 rectangle.draw();
 console.log(rectangle.getArea());
-const triangle = new Triangle(20, 20, 'red');
+const triangle = new Triangle(30, 30, 'red');
 triangle.draw();
+console.log(triangle.getArea());
