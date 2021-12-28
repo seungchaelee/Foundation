@@ -98,6 +98,9 @@ class Shape {
 
 class Rectangle extends Shape {}
 class Triangle extends Shape {
+  draw() {
+    console.log('🔺');
+  }
   getArea() {
     return (this.width * this.height) / 2;
   }
