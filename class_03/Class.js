@@ -77,3 +77,26 @@ const article1 = new Article(1);
 const article2 = new Article(2);
 console.log(Article.publisher);
 Article.printPublisher();
+
+// 5. Inheritance
+// a way for one class to extend another class.
+class Shape {
+  constructor(width, height, color) {
+    this.width = width;
+    this.height = height;
+    this.color = color;
+  }
+
+  draw() {
+    console.log(`drawing ${this.color} color of`);
+  }
+
+  getArea() {
+    return width * this.height;
+  }
+}
+
+class Rectangle extends Shape {}
+
+const rectangle = new Rectangle(20, 20, 'blue');
+rectangle.draw();
