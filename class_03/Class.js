@@ -97,6 +97,9 @@ class Shape {
 }
 
 class Rectangle extends Shape {}
+class Triangle extends Shape {}
 
 const rectangle = new Rectangle(20, 20, 'blue');
 rectangle.draw();
+const triangle = new Triangle(20, 20, 'red');
+triangle.draw();
