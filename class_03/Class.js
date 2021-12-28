@@ -99,6 +99,7 @@ class Shape {
 class Rectangle extends Shape {}
 class Triangle extends Shape {
   draw() {
+    super.draw();
     console.log('🔺');
   }
   getArea() {
@@ -112,3 +113,10 @@ console.log(rectangle.getArea());
 const triangle = new Triangle(30, 30, 'red');
 triangle.draw();
 console.log(triangle.getArea());
+
+// 6. Class checking: instanceOf
+console.log(rectangle instanceof Rectangle);
+console.log(triangle instanceof Rectangle);
+console.log(triangle instanceof Triangle);
+console.log(triangle instanceof Shape);
+console.log(triangle instanceof Object);
