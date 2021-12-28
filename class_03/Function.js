@@ -147,3 +147,25 @@ console.log(simpleMultiply(7, 3));
 (function helloIIFE() {
   console.log('IIFE');
 })();
+
+// Quiz
+// function calculate(command, a, b)
+// command: add, substract, divide, multiply, remainder
+
+function calculate(command, a, b) {
+  switch (command) {
+    case 'add':
+      return a + b;
+    case 'substract':
+      return a - b;
+    case 'divide':
+      return  a / b;
+    case 'multiply':
+      return a * b;
+    case 'remainder':
+      return a % b;
+    default:
+      throw Error('unkonwn command');
+  }
+}
+console.log(calculate('divide', 3, 5));
