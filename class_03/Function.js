@@ -169,4 +169,3 @@ function calculate(command, a, b) {
   }
 }
 console.log(calculate('divide', 3, 5));
-
