@@ -3,9 +3,12 @@
 // a collection of related data and/or functionality.
 // Nearly all objects in JavaScript are instances of Object
 
-const name = 'leesch';
-const age = 25;
-print(name, age);
-function print(name, age) {
-  console.log(name);
+const obj1 = {};
+const obj2 = new Object();
+function print(person) {
+  console.log(person.name);
+  console.log(person.age);
 }
+
+const leesch = { name: 'leesch', age: 25 };
+print(leesch);
