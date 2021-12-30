@@ -13,3 +13,5 @@ function print(person) {
 
 const leesch = { name: 'leesch', age: 25 };
 print(leesch);
+
+leesch.jasJob = true;
