@@ -23,3 +23,10 @@ console.log(leesch.hasJob);
 
 delete leesch.hasJob;
 console.log(leesch.hasJob);
+
+// 2. Computed properties
+// key should be always string
+console.log(leesch.name);
+console.log(leesch['name']);
+leesch['hasJob'] = true;
+console.log(leesch.hasJob);
