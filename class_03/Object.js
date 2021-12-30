@@ -30,3 +30,11 @@ console.log(leesch.name);
 console.log(leesch['name']);
 leesch['hasJob'] = true;
 console.log(leesch.hasJob);
+
+function printValue(obj, key) {
+  console.log(obj[key]);
+}
+printValue(leesch, 'name');
+printValue(leesch, 'age');
+
+// 3. Property value shorthand
