@@ -60,7 +60,18 @@ console.log(leesch.random);
 
 // 6. for..in vs for..of
 // for (key in obj)
-console.clear();
+console.clear(); // console 삭제
 for (key in leesch) {
   console.log(key);
 }
+
+// for (value of iterable)
+const array = [1, 2, 3, 4];
+for (value of array) {
+  console.log(value);
+}
+
+// 7. Fun cloning
+// Object.assign(dest, [obj1, obj2, obj3...])
+const user = { name: leesch, age: 26 };
+const user2 = user;
