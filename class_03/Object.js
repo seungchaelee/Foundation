@@ -51,3 +51,5 @@ this.name = name;
 this.age = age;
 // return this;
 }
+
+// 5. in operator: property existence check (key in obj)
