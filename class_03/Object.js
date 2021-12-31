@@ -59,4 +59,8 @@ console.log('random' in leesch);
 console.log(leesch.random);
 
 // 6. for..in vs for..of
-
+// for (key in obj)
+console.clear();
+for (key in leesch) {
+  console.log(key);
+}
