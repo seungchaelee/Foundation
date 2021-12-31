@@ -53,3 +53,10 @@ this.age = age;
 }
 
 // 5. in operator: property existence check (key in obj)
+console.log('name' in leesch);
+console.log('age' in leesch);
+console.log('random' in leesch);
+console.log(leesch.random);
+
+// 6. for..in vs for..of
+
