@@ -75,3 +75,5 @@ for (value of array) {
 // Object.assign(dest, [obj1, obj2, obj3...])
 const user = { name: leesch, age: 26 };
 const user2 = user;
+user2.name = 'coder';
+console.log(user2);
