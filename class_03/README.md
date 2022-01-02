@@ -6,3 +6,4 @@
 4. Function: Functions 함수
 5. Class: Class 객체지향언어
 6. Object: 
+7. Array: 
