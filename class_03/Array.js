@@ -65,3 +65,10 @@ console.log(fruits);
 const fruits2 = ['🍐', '🥥'];
 const newFruits = fruits.concat(fruits2);
 console.log(newFruits);
+
+// Searching
+// find the index
+console.clear();
+console.log(fruits);
+console.log(fruits.indexOf('🍎'));
+console.log(fruits.indexOf('🍉'));
