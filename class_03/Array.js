@@ -72,3 +72,5 @@ console.clear();
 console.log(fruits);
 console.log(fruits.indexOf('🍎'));
 console.log(fruits.indexOf('🍉'));
+console.log(fruits.includes('🍉'));
+console.log(fruits.includes('🥥'));
