@@ -55,3 +55,13 @@ fruits.shift();
 console.log(fruits);
 
 // note!! shift, unshift are slower than pop, push
+// splice: remove an item by index position
+fruits.push('🍓', '🍑', '🍋');
+console.log(fruits);
+fruits.splice(2, 3, '🍏', '🍉');
+console.log(fruits);
+
+// combine two arrays
+const fruits2 = ['🍐', '🥥'];
+const newFruits = fruits.concat(fruits2);
+console.log(newFruits);
