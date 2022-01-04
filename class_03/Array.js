@@ -15,7 +15,7 @@ console.log(fruits[1]);
 console.log(fruits[2]);
 console.log(fruits[fruits.length - 1]);
 
-console.clear();
+// console.clear();
 // 3. Looping over an array
 // print all fruits
 // a. for
@@ -68,7 +68,7 @@ console.log(newFruits);
 
 // Searching
 // find the index
-console.clear();
+// console.clear();
 console.log(fruits);
 console.log(fruits.indexOf('🍎'));
 console.log(fruits.indexOf('🍉'));
