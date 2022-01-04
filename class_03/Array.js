@@ -67,10 +67,13 @@ const newFruits = fruits.concat(fruits2);
 console.log(newFruits);
 
 // Searching
-// find the index
+// indexOf: find the index
 // console.clear();
 console.log(fruits);
-console.log(fruits.indexOf('🍎'));
-console.log(fruits.indexOf('🍉'));
-console.log(fruits.includes('🍉'));
-console.log(fruits.includes('🥥'));
+console.log(fruits.indexOf('🍎')); // 0
+console.log(fruits.indexOf('🍉')); // 3
+console.log(fruits.includes('🍉')); // true
+
+// includes
+console.log(fruits.includes('🥥')); // false
+console.log(fruits.indexOf('🥥')); // -1
