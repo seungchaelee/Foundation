@@ -82,3 +82,5 @@ const students = [
   }, 0);
   console.log(result);
 }
+
+// Q10. 
