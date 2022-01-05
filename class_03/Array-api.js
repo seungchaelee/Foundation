@@ -52,5 +52,19 @@ const students = [
 
 // Q6. make an attay of enrolled students
 {
+  const result = students.filter(student => student.enrolled);
+  console.log(result);
+}
 
+// Q7. make an array containing only the students' scores
+// result should be: [45, 80, 90, 66, 88]
+{
+  const result = students.map(student => student.score);
+  console.log(result);
+}
+
+// Q8. check if there is a student with the score lower than 50
+{
+  const result = students.some(student => student.score < 50);
+  console.log(result);
 }
