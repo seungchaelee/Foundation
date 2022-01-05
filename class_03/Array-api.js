@@ -46,9 +46,7 @@ const students = [
 
 // Q5. find a student with the score 90
 {
-  const result = students.find(student => {
-    return student.score === 90;
-  });
+  const result = students.find(student => student.score === 90);
   console.log(result);
 }
 
