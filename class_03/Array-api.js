@@ -78,7 +78,7 @@ const students = [
     console.log('-------------');
     console.log(prev);
     console.log(curr);
-    return curr;
-  });
-  // console.log(result);
+    return prev + curr.score;
+  }, 0);
+  console.log(result);
 }
