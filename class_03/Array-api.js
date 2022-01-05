@@ -67,4 +67,18 @@ const students = [
 {
   const result = students.some(student => student.score < 50);
   console.log(result);
+
+  const result2 = !students.every(student => student.score < 50);
+  console.log(result2);
+}
+
+// Q9. compute students' average score
+{
+  const result = students.reduce((prev, curr) => {
+    console.log('-------------');
+    console.log(prev);
+    console.log(curr);
+    return curr;
+  });
+  // console.log(result);
 }
