@@ -75,9 +75,9 @@ const students = [
 // Q9. compute students' average score
 {
   const result = students.reduce((prev, curr) => {
-    console.log('-------------');
-    console.log(prev);
-    console.log(curr);
+    // console.log('-------------');
+    // console.log(prev);
+    // console.log(curr);
     return prev + curr.score;
   }, 0);
   console.log(result);
