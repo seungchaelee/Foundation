@@ -5,6 +5,6 @@
 3. Operator: 연산, 반복문
 4. Function: Functions 함수
 5. Class: Class 객체지향언어
-6. Object: 
-7. Array: 
+6. Object: 객체
+7. Array: 배열
 8. Array-api: api소스, 
