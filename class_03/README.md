@@ -7,4 +7,4 @@
 5. Class: Class 객체지향언어
 6. Object: 객체
 7. Array: 배열
-8. Array-api: api소스, 
+8. Array-api: 다양한 api소스
