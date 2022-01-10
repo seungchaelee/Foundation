@@ -2,6 +2,6 @@
 
 Javascript Base page.
 
-Front-end Junior developer.
+Front-End Junior developer.
 
 Thanks.
