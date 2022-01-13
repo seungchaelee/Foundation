@@ -15,9 +15,24 @@
   let j = 0;
   let k = 0; // i, j ,k 관행
 
-  //[2] Process
+  //[2] Process: Merge 알고리즘
 
-
+  while (i < M && j < N) { // 둘 중 하나라도 배열의 끝에 도달할 때까지
+    if (first[i] < second[j]) { // 더 작은 값을 merge 배열에 저장
+      merge[k] = first[i];  // 작은 값 대입 후 각가의 인덱스 증가
+      k++;
+      i++;
+    }
+    else {
+      merge[k++] = second[j++]; // 작은 값 대입 후 각가의 인덱스 증가
+    }
+  }
+  while (i < M) { // 첫 번째 배열이 끝까지 도달할 때까지
+    merge[k++] = first[i++];
+  }
+  while (j < N) { // 두 번째 배열이 끝까지 도달할 때까지
+    merge[k++] = second[j++];
+  }
 
   //[3] Output
 
