@@ -2,9 +2,9 @@
 
 //[문제] 2개의 정수 배열 합치기 단) 2개의 배열은 오름차순으로 정렬되어 있다고 가정
 
-(function() {
+(function Merge() {
 
-  //[1] Input
+  //[1] Input(입력)
 
   let first = [1, 3, 5]; // 오름차순 정렬됨
   let second = [2, 4]; // 오름차순 정렬됨
@@ -15,7 +15,7 @@
   let j = 0;
   let k = 0; // i, j ,k 관행
 
-  //[2] Process: Merge 알고리즘
+  //[2] Process(처리): Merge 알고리즘
 
   while (i < M && j < N) { // 둘 중 하나라도 배열의 끝에 도달할 때까지
     if (first[i] < second[j]) { // 더 작은 값을 merge 배열에 저장
@@ -34,7 +34,7 @@
     merge[k++] = second[j++];
   }
 
-  //[3] Output
+  //[3] Output(출력)
 
   for (let i = 0; i < M + N; i++) {
     console.log(merge[i]);
