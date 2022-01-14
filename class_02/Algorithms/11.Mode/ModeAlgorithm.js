@@ -8,13 +8,19 @@
 
   let scores = [1, 3, 4, 3, 5]; // 0~5까지만 들오온다고 가정
   let indexes = Array(6).fill(0); // 0~5까지 점수 인덱스의 개수 저장
-  let max = Number.MAX_SAFE_INTEGER; // MAX 알고리즘 적용
+  let max = Number.MIN_SAFE_INTEGER; // MAX 알고리즘 적용
   let mode = 0; // 최반값이 담길 그릇
 
   //[2] Process(처리): Data -> Index -> Count -> Max -> Mode
 
   for (let i = 0; i < scores.length; i++) {
-    indexes[scores[i]]++; // Count
+    indexes[scores[i]]++; // COUNT
+  }
+  for (let i = 0; i < indexes.length; i++) {
+    if (indexes[i] > max) {
+      max = indexes[i]; // MAX -> 2
+      mode = i; // MODE -> 3
+    }
   }
 
   //[3] Output(출력)
