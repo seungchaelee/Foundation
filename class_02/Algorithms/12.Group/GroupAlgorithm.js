@@ -6,6 +6,14 @@
 
   //[1] Input(입력): 테스트용 레코드 JSON 배열
 
+  let records = [
+    { Name: 'RADIO', Quantity: 3 },
+    { Name: 'TV', Quantity: 1 },
+    { Name: 'RADIO', Quantity: 2 },
+    { Name: 'DVD', Quantity: 4 },
+  ];  // 입력 데이터
+  let groups = []; // 출력 데이터
+  let N = records.length; // 의사코드
 
 
   //[2] Process(처리)
