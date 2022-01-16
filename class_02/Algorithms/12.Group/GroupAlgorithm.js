@@ -16,6 +16,7 @@
   let N = records.length; // 의사코드
 
 
+
   //[2] Process(처리)
 
   //[A]
