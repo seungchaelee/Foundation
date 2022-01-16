@@ -4,13 +4,15 @@
 
 (function Group() {
 
-  //[1] Input(입력)
+  //[1] Input(입력): 테스트용 레코드 JSON 배열
 
 
 
   //[2] Process(처리)
 
+  //[A]
 
+  //[B]
 
   //[3] Output(출력)
 
