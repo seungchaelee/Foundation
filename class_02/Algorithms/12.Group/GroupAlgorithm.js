@@ -17,16 +17,16 @@
 
 
 
-  //[2] Process(처리)
+  //[2] Process(처리): Group Algorithm
 
-  //[A]
+  //[A] 그룹 정렬: Sort
 
 
-  //[B]
+  //[B] 그룹 소계: Group
 
 
   //[3] Output(출력)
 
-
+  console.log('[1] 정렬된 원본 데이터: ');
 
 })();
