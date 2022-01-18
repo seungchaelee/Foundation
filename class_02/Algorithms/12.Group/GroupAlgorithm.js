@@ -16,7 +16,6 @@
   let N = records.length; // 의사코드
 
 
-
   //[2] Process(처리): Group Algorithm
 
   //[A] 그룹 정렬: Sort
